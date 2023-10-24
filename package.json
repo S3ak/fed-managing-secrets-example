@@ -1,0 +1,11 @@
+{
+  "name": "fed-managing-secrets-example",
+  "version": "1.0.0",
+  "description": "Example git repo for managing secrets",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Monde Sineke",
+  "license": "ISC"
+}
