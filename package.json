@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Example git repo for managing secrets",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm test"
+    "test": "node test.js"
   },
   "author": "Monde Sineke",
   "license": "ISC",
