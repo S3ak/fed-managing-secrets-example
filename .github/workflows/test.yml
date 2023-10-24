@@ -3,10 +3,8 @@ name: Test our Secret Value
 on: [workflow_dispatch]
 
 env:
-  ## Sets environment variable
-  {% raw %}
   MEANING_OF_LIFE: ${{secrets.MEANING_OF_LIFE}}
-  {% endraw %}
+
 jobs:
   check:
     runs-on: ubuntu-latest
